@@ -8,4 +8,4 @@
 
 package com.adyen.checkout.example.api.model
 
-data class AdditionalData(val allow3DS2: String = "false")
+data class AdditionalData(val allow3DS2: String = "true")

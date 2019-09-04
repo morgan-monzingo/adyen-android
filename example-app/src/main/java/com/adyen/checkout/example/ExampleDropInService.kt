@@ -8,6 +8,7 @@
 
 package com.adyen.checkout.example
 
+import com.adyen.checkout.adyen3ds2.Adyen3DS2Component
 import com.adyen.checkout.base.model.payments.request.* // ktlint-disable no-wildcard-imports
 import com.adyen.checkout.base.model.payments.response.Action
 import com.adyen.checkout.core.log.LogUtil

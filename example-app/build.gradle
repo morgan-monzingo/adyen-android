@@ -16,7 +16,7 @@ apply from: "../config/gradle/ci.gradle"
 if (file("local.gradle").exists()) {
     apply from: "local.gradle"
 } else {
-    logger.lifecycle("File example-app/local.gradle not found. Duplicate example-app/local.gradle.example and fill in your API key.")
+    logger.lifecycle("File example-app/local.gradle not found. Duplicate example-app/local.gradle and fill in your API key.")
 }
 
 // This runConnectedAndroidTest.gradle script is applied,

@@ -21,6 +21,6 @@ data class PaymentsRequest(
     // unique reference of the payment
     val returnUrl: String,
     val reference: String = "android-test-components",
-    val channel: String = "android",
-    val additionalData: AdditionalData = AdditionalData(allow3DS2 = "false")
+    val channel: String = "Android",
+    val additionalData: AdditionalData = AdditionalData(allow3DS2 = "true")
 )
